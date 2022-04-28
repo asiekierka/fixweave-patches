@@ -1,0 +1,10 @@
+@Hand
+#end
+:touch
+A bone hand is wearing gem studded ring.
+/i/i/i/i/i/i/i/i
+You remove the ring.
+#give gems 10
+#give score 100
+#give score 500
+#die

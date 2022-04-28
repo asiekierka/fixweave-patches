@@ -1,0 +1,35 @@
+@FOOL
+:LOOP
+#TRY RNDNS
+#TRY RNDNE
+#try rndns
+#IDLE
+?w?w?s?s?e?i?i?i?e?n?w?w?n?w
+#try cw rndns
+#try opp rndne
+?s?s?w?n?i?i?e?e?e?n?e?s?w?w
+#TRY CW SEEK
+#try seek
+#try cw seek
+#restart
+:touch
+#play 4xxt+++cfecfecfecfecfe
+                 A FOOL
+         "Oh, go on with you, now.
+       Go pick on Horus or somebody."
+                   :::
+            (Health improved)
+                _______
+#give score 60
+#give health 30
+#zap touch
+#try opp seek
+#try n
+#try opp seek
+?e
+#try opp seek
+#restart
+:touch
+#play 4
+#restart
+#END

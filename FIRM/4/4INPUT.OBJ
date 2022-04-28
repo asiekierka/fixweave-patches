@@ -1,0 +1,69 @@
+@newinput
+'Remove player clone cross
+#if mousex below 1 end
+#put at 49 4 0 0 normal
+#put at 50 4 0 0 normal
+#put at 51 4 0 0 normal
+#put at 49 6 0 0 normal
+#put at 50 6 0 0 normal
+#put at 51 6 0 0 normal
+:loop
+/i#if mousex below 1 loop
+#put at 49 5 0 0 normal
+/i#put at 51 5 0 0 normal
+#loop
+:look
+#if not blocked n then none
+#send all:search2
+#loop
+:move
+#if not blocked n then none
+#send all:op2
+#loop
+:use
+#if not blocked n then none
+#send all:use2
+#loop
+:get
+#if not blocked n then none
+#send all:get2
+#loop
+:none
+Nothing to manipulate.
+/i#loop
+:description
+#send swest:ok
+#loop
+:special
+#send seast:ok
+#loop
+:nextexit
+#if detect at 17 23 player if blocked at 23 23 exchb
+#if detect at 21 23 player if blocked at 27 23 exchc
+#if detect at 25 23 player if blocked at 31 23 exchd
+#if detect at 29 23 player if blocked at 35 23 exche
+#if blocked at 17 22 end
+:excha
+#shove player at 17 23
+#send /at 16 23 touch
+#loop
+:exchb
+#if blocked at 21 22 excha
+#shove player at 21 23
+#send /at 20 23 touch
+#loop
+:exchc
+#if blocked at 25 22 excha
+#shove player at 25 23
+#send /at 24 23 touch
+#loop
+:exchd
+#if blocked at 29 22 excha
+#shove player at 29 23
+#send /at 28 23 touch
+#loop
+:exche
+#if blocked at 33 22 excha
+#shove player at 33 23
+#send /at 32 23 touch
+#loop

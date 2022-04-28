@@ -1,0 +1,79 @@
+$Playing "4"
+
+The point of the game is simple: it is
+a puzzle. Get through it by finding
+objects and using them to get to each
+level.
+
+:mouse;Mouse Mode
+
+If a mouse is detected, you may use the
+mouse to control the cursor. The cursor
+will change its shape to filled when
+pointing at an interactable object. In
+order to interact, the following keys
+may be used:
+
+ [L] Look, Search
+ [M] Move, Open, Pull, Push, Manipulate
+ [U] Use from Inventory
+ [G] Get
+
+The following keys can also be used:
+
+ [D] Room Description
+ [Z] Special (maps, etc.)
+
+:keyboard;Keyboard Mode
+
+In addition, the traditional keyboard
+mode remains supported. In this mode,
+you may enter the arrows (lower-left
+board corner) to control the cursor.
+
+Press UP to toggle between actions,
+and SHIFT+UP to interact:
+
+ [S] Look, Search
+ [O] Move, Open, Pull, Push, Manipulate
+ [U] Use from Inventory
+ [G] Get
+
+Press SHIFT+LEFT to access the room's
+description.
+
+Press SHIFT+RIGHT for the special action
+(maps, etc.)
+
+:trouble;Having trouble?
+
+Here's a good way to start. On the first
+board, go to the light switch and Open
+it, using the above instructions. This
+should add a Light Bulb to your
+inventory.
+
+
+
+$4
+                    4 
+$4
+                    4 
+$
+              Released by:
+$
+$jojoisjo
+$
+                   of
+$
+$Lame Game
+$
+                   on
+$
+$April 17th, 2001
+$ 
+    FixWeave mouse support patch by:
+$
+$asie
+$
+                 Enjoy!

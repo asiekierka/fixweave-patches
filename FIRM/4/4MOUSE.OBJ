@@ -1,0 +1,17 @@
+@cursor
+#cycle 1
+#char 127
+:loop
+/i
+#set obj1 mousex
+#set obj2 mousey
+#if obj1 below 3 set obj1 3
+#if obj1 above 39 set obj1 39
+#if obj2 below 5 set obj2 5
+#if obj2 above 19 set obj2 19
+#if obj1 is thisx if obj2 is thisy loop
+#if blocked at obj1 obj2 if obj2 below 19 give obj2 1
+?at obj1 obj2
+#if thisy above 5 if blocked n char 30
+#else char 127
+#loop

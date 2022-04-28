@@ -1,0 +1,16 @@
+@Pirate
+#end
+:attack
+#walk seek
+/i#if contact take health 10 attack2
+#attack
+:attack2
+#take health 5
+#take health 2
+#take health 2
+#take health 1
+#attack
+:bombed
+Aaaaaaaaaaauuuuuuugggggggghhhhh!
+#give score 10
+#die

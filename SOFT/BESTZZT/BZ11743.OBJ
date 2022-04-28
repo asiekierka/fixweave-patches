@@ -1,0 +1,14 @@
+#end
+:touch
+#play 1
+#if going send going
+#end
+:going
+#if ff3 play t05x05x05x09
+#if ff3 send all:open
+#end
+:open
+#play ideqfedixdefaefqdx55
+#give score 50
+#zap open
+#end
