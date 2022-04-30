@@ -1,0 +1,29 @@
+#cycle 3
+#end
+:touch
+#lock
+The rock contains a hidden button. Do you
+dare to push it???
+!doit;Yeah!
+!noway;No way!
+/i/i
+#unlock
+#end
+:doit
+#change head red gem
+/i
+#change head purple gem
+/i
+#change head blue gem
+/i
+#change head cyan gem
+/i
+#change head green gem
+/i
+#become normal
+#unlock
+#end
+:noway
+#become normal
+#unlock
+#end
