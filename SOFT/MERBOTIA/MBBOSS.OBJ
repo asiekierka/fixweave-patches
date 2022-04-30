@@ -1,0 +1,128 @@
+@Boss
+#cycle 2
+#end
+'patch: the following label name aged poorly
+:yuck
+/w/w/w
+/s/s
+/e
+/i
+/e
+#end
+:touch
+Pull up a chair.
+#end
+:shot
+#Desk:red
+#kaput
+#end
+:kaput
+#zap touch
+#zap shot
+#zap kaput
+'patch
+#zap Desk:touch
+#zap Desk:scoot
+#zap 
+#end
+:kaput
+#end
+:touch
+Oh, boy. Another dead body. Whoopee.
+I GUESS that since I'm so kind I'll let
+you play with it for a little while.
+!ammo;Search his pockets
+!arm;Chop off his arm
+!brains;Remove his brains out of his nose
+!throw;Throw his body at a wall
+/i/i/i
+Awww, you're so NICE....
+#end
+:ammo
+You find a Band-Aid!
+#give health 3
+#give score 25
+#zap ammo
+#end
+:ammo
+You already searched his pockets.
+#end
+:arm
+You tear off his arm. You decide to keep
+it as a souvenir, in case you ever make it
+back to earth.
+#give score 50
+#set arm
+#zap arm
+#end
+:arm
+No, you may not take his other arm. You
+already have 2 of your own. Make do.
+#end
+:brains
+#cycle 3
+You MASOCHIST!
+#shoot seek
+/i/i
+You MANIAC!
+#shoot seek
+/i/i
+That's GROSS!
+#shoot seek
+/i/i
+Bad, bad, bad! Wrong wrong wrong!
+/i/i
+#zap brains
+#end
+:brains
+I will NOT let you do that to the corpse!
+#end
+:throw
+#cycle 1
+:westing
+:westing
+:westing
+:westing
+:westing
+:westing
+:westing
+/w
+#go west
+#zap westing
+#westing
+#end
+:westing
+#put e red fake
+#put s red fake
+#play t25897
+#give score 25
+Yuck!
+#zap throw
+#end
+:throw
+:easting
+:easting
+:easting
+:easting
+:easting
+:easting
+:easting
+/e
+#go east
+/e
+#go east
+#zap easting
+#easting
+#end
+:easting
+#put w red fake
+#put s red fake
+#zap throw
+#give score 25
+#play t785249
+Gross!
+#end
+:throw
+That's enough throwing the corpse for
+today.
+#end

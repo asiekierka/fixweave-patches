@@ -1,0 +1,8 @@
+#end
+:touch
+25 Health!
+#give health 25
+#play t++t-gec-gec
+#die
+:shot
+"KLANG!" says the first-aid kit!
