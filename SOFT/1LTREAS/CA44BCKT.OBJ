@@ -1,0 +1,14 @@
+@bucket
+#end
+:touch
+#play q7
+#if any gem stay
+#set gems
+#zap touch
+You put all gems in the bucket.
+#take gems 20
+#restart
+#end
+:stay
+You must collect all gems!
+#restart

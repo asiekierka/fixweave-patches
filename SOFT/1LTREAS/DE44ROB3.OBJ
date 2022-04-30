@@ -1,0 +1,39 @@
+@robot3
+#send loop
+#end
+:touch
+#cycle 1
+#play 0
+#go opp seek
+#send loop
+#end
+:loop
+#cycle 4
+/i
+#if alligned then shoot seek
+#go rndns
+/i/i
+#if alligned then shoot seek
+#go rndns
+#send loop
+#end
+:shot
+:shot
+:shot
+:shot
+:shot
+#play 0
+[Bink]
+/i
+#zap shot
+#send loop
+#restart
+:shot
+#lock
+#send Active3:out3
+#send door2:no2
+#give score 500
+#play 099++a
+[B00M]
+#zap shot
+#char 220

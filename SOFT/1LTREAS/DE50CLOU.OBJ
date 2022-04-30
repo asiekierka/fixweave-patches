@@ -1,0 +1,19 @@
+@Cloud
+/i/i/i/i/i/i
+#cycle 1
+:loop
+#char 249
+#walk w
+#end
+:thud
+#walk idle
+#char 32
+#zap thud
+#walk e
+#end
+:thud
+#walk idle
+#restore thud
+/i/i
+#send loop
+#end

@@ -1,0 +1,80 @@
+@Vault
+#end
+:Touch
+#play s-bba
+It's a bank vault.
+
+!A;Guess combo.
+#end
+:A
+You must get all 3 numbers right.
+You: _ _ _
+
+!no;1
+!no;2
+!no;3
+!no;4
+!no;5
+!no;6
+!ya;7
+!no;8
+!no;9
+!no;10
+#end
+:ya
+#play s6
+Correct.
+You: 7 _ _
+
+!no1;1
+!no1;2
+!no1;3
+!ya1;4
+!no1;5
+!no1;6
+!no1;7
+!no1;8
+!no1;9
+!no1;10
+#end
+:Ya1
+#play s6
+Correct.
+You: 7 4 _
+
+!not;1
+!not;2
+!not;3
+!not;4
+!not;5
+!not;6
+!not;7
+!not;8
+!not;9
+!yes;10
+#end
+:yes
+#play s6
+#play s6x6x6
+Correct.
+7 4 10
+The vault opens..
+#lock
+/n
+/i/i/i/i/i/i/i/i/i/i/i/i/i/i
+/s
+#zap touch
+#end
+:No
+#play q--gc
+Wrong.
+#zap touch
+#end
+:no1
+#play q--gc
+Wrong
+#zap touch
+#end
+:Not
+#play q--gc
+Wrong.

@@ -1,0 +1,12 @@
+@metal
+#end
+:go
+#die
+#end
+:touch
+#play edc
+The guard spots you and throws a grenade
+towards your direction.
+
+$Your adventure ends here mortal!
+#endgame

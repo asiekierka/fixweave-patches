@@ -1,0 +1,21 @@
+@Eater
+#end
+:Touch
+#play q7
+"I'm eating right now."
+#zap touch
+#end
+:Touch
+#play q7
+"Could you go bother the cook!"
+#zap touch
+#end
+:Touch
+#play q7
+#give gems 1
+"Here's a gem, NOW LEAVE ME ALONE!!"
+#zap touch
+#end
+:Touch
+#play q7
+"I'm not talking to ya!"

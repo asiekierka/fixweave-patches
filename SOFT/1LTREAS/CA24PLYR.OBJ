@@ -1,0 +1,15 @@
+@Player
+#end
+:touch
+#play q7
+Can't you see he's playing?
+#restart
+#zap touch
+#end
+:shot
+Uggg.
+/i/i/i/i
+#play t9999999999
+The guards shoot at you three times.
+$Game Over
+#endgame
