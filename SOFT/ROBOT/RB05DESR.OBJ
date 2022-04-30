@@ -1,0 +1,11 @@
+@deserter
+#cycle 1
+:loop
+#if DESERT then desertnow
+#send loop
+:desertnow
+#gun1:die
+#gun2:die
+#all:desert
+:desert
+#become purple breakable

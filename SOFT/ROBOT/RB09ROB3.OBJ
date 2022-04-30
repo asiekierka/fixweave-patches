@@ -1,0 +1,53 @@
+@robot3
+#zap aboard
+#end
+:touch
+#if PASS then pass
+Do you have a pass?
+/i/i/i/i/i/i/i
+Please buy a pass if you wish to ride...
+#end
+:pass
+#restore aboard
+You have a pass so please step aboard...
+/e/n
+#end
+:aboard
+#zap aboard
+#transit:close
+/s/w
+Where do you wish to go?
+
+!d1;Dome 1
+!d2;Dome 2
+#end
+:d1
+Okay...
+#transit:west
+/i/i/i/i/i/i/i/i/i/i/i/i/i/i/i/i/i/i
+#transit:south
+/i/i/i
+#transit:south
+/i/i/i
+#transit:east
+/i/i/i/i/i/i/i/i/i/i/i/i/i/i/i/i/i/i
+#transit:letout
+#robot1:letout
+#end
+:d2
+Okay...
+#transit:west
+/i/i/i/i/i/i/i/i/i/i/i/i/i/i/i/i/i/i
+#transit:south
+/i/i/i
+#transit:east
+/i/i/i/i/i/i/i/i/i/i/i/i/i/i/i/i/i/i
+#transit:letout
+#robot2:letout
+#end
+:letout
+/w/n
+Please step out NOW.
+/i/i/i/i/i/i/i/i/i/i/i/i
+/s/e
+#end
