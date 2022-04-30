@@ -1,0 +1,10 @@
+@Mushroom
+#end
+:touch
+This overgrown fungi seems to have 
+lunched upon a previous guest. As you
+search, you find several useful items.
+#give ammo 5
+#give torches 2
+#give gems 2
+#die
