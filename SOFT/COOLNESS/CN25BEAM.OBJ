@@ -1,0 +1,48 @@
+@beam
+#cycle 1
+#end
+:shootit
+#play qaib
+#char 223
+/i/i/i
+#char 219
+/i/i
+#char 223
+#go s
+#put n white solid
+/i/i/i
+#char 219
+#if not blocked s then head
+#change ammo bomb
+#change torch energizer
+#change gem green key
+#end
+:off
+#char 223
+/i/i/i
+#put n empty
+#char 219
+#go n 
+/i/i/i/i
+#char 223
+/i/i/i/i
+#die
+#end
+:head
+OOOPS!! You didn't put anything down there
+to change. The beam burns a hole through 
+the wall and demolished the whole place.
+You die from smoke inhalation instantly.
+
+$THE END
+#endgame
+#change normal empty
+#change solid empty
+#change breakable empty
+#change forest empty
+#change passage empty
+#change water empty
+#change fake empty
+#change line empty
+#change object empty
+#end

@@ -1,0 +1,34 @@
+@ADoor
+#end
+:touch
+#play t6
+It's a door, but it's locked.
+#if piece then do
+#if sharp then op
+#if card then trycard
+#end
+:do
+!no; Stick the pole into the lock
+#end
+:op
+!st; Stick the pole into the lock
+#end
+:no
+#play i98457
+You stick the piece of the flagpole into
+the lock, but even after a few clicks,
+nothing happens.
+#end
+:stop
+#die
+:st 
+#play i0245789
+You stick the piece of the flag pole into
+the lock, and after a few clicks, the 
+door opens!!!
+#adoor:stop
+:trycard
+#play 12
+You try to put the keycard into the lock,
+but it doesn't do anything.
+#end
